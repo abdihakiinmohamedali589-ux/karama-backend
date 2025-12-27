@@ -33,6 +33,7 @@ const contactSchema = new mongoose.Schema(
   }
 );
 
+// add a new field to the schema to store the ip address of the user
 const Contact = mongoose.model('Contact', contactSchema);
 
 export default Contact;
